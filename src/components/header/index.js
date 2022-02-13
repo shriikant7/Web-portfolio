@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./header.css";
 import Mobile from "./mobile";
 import Web from "./web";
 
@@ -19,9 +20,9 @@ const Header = () => {
         <div className="mobile-menu">
           {" "}
           <div onClick={onclickhandler}>
-            <i class="fi fi-rr-apps"></i>
+            <i class="fi fi-rr-apps menu-icon"></i>
           </div>
-          {isOpen && <Mobile />}
+          {isOpen && <Mobile isOpen={isOpen} setisOpen={setisOpen} />}
         </div>
       </div>
     </div>

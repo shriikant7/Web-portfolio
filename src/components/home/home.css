@@ -4,9 +4,8 @@ html {
 .home {
   display: flex;
   flex-direction: column;
-  width: 70%;
+  width: 90%;
   margin: auto;
-  background-color: bisque;
 }
 @media only screen and (max-width: 1024px) {
   .home {
