@@ -21,12 +21,12 @@ const Mobile = ({ isOpen, setisOpen }) => {
           </a>
         </div>
         <div className="mobile-option">
-          <a href="work">
+          <a href="#work">
             <i class="fi fi-rr-briefcase option-icon"></i>work
           </a>
         </div>
         <div className="mobile-option">
-          <a href="contact">
+          <a href="#contact">
             <i class="fi fi-rr-user option-icon"></i>Contact
           </a>
         </div>
