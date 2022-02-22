@@ -5,6 +5,7 @@ const ProjectCard = ({ project }) => {
     <div className="project-card">
       <div className="project-info">
         <label className="project-title">{project.title}</label>
+
         <div className="project-links">
           {project.demo && (
             <a className="project-link" href={project.demo}>
@@ -21,13 +22,16 @@ const ProjectCard = ({ project }) => {
             </a>
           )}
         </div>
+
         <p>{project.about}</p>
+
         <div className="project-tags">
           {project.tags.map((tag) => {
             return <label className="tag">{tag}</label>;
           })}
         </div>
       </div>
+
       <img src={project.image} className="project-photo" />
     </div>
   );

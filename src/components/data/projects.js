@@ -12,7 +12,7 @@ export const ProjectData = [
   {
     id: 2,
     title: "ToDo app",
-    about: "This app is about ToDo list ",
+    about: "This app is about ToDo list. we can add and remove simply items ",
     tags: ["JavaScripts", "Html & Css"],
     demo: "#",
     github: "https://github.com/shriikant7/Todo-app-",
